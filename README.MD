@@ -1,40 +1,39 @@
-# Insurance Risk Analysis 📣
+# 📣 Car Price Prediction 
 
 ## Introduction
 
-This project aims to predict the risk of insurance claims using a dataset from Kaggle. The dataset consists of 26 columns and 205 rows, providing various features related to insurance risk. By analyzing this data, we seek to build predictive models that can help insurers assess the risk of claims.
+This project aims to predict the risk of insurance claims using a car feature data. The dataset consists of 26 columns and 205 rows, providing various features related to insurance risk. By analyzing this data, we seek to build predictive models that can help insurers assess the risk of claims.
 
 ## Dataset
 
 The dataset contains the following columns:
 
-columns:
-- symboling
-- normalized-losses
-- make
-- fuel-type
-- aspiration
-- num-of-doors
-- body-style
-- drive-wheels
-- engine-location
-- wheel-base
-- length
-- width
-- height
-- curb-weight
-- engine-type
-- num-of-cylinders
-- engine-size
-- fuel-system
-- bore
-- stroke
-- compression-ratio
-- horsepower
-- peak-rpm
-- city-mpg
-- highway-mpg
-- price
+- **symboling**:  The auot is risky (+3 more risk and -3 is pretty safe). Rating corresponds to the degree to which the auto is more risky than its price indicates.
+- **normalized-losses**: The relative average loss payment per insured vehicle year. This value is normalized for all autos within a particular size classification (two-door small, station wagons, sports/speciality, etc.), and represents the average loss per car per year.
+- **make**: The make of the car.
+- **fuel-type**: The fuel type of the car.
+- **aspiration**: Aspiration used in a car.
+- **num-of-doors**: The number of doors in a car.
+- **body-style**: The body style of the car.
+- **drive-wheels**: The drive wheels of the car.
+- **engine-location**: The location of the engine in the car.
+- **wheel-base**: The wheel base of the car.
+- **length**: The length of the car.
+- **width**: The width of the car.
+- **height**: The height of the car.
+- **curb-weight**: The curb weight of the car.
+- **engine-type**: The engine type of the car.
+- **num-of-cylinders**: The number of cylinders in the car.
+- **engine-size**: The engine size of the car.
+- **fuel-system**: The fuel system of the car.
+- **bore**: The bore of the car.
+- **stroke**: The stroke of the car.
+- **compression-ratio**: The compression ratio of the car.
+- **horsepower**: The horsepower of the car.
+- **peak-rpm**: The peak rpm of the car.
+- **city-mpg**: The city mpg of the car.
+- **highway-mpg**: The highway mpg of the car.
+- **price**: The price of the car.
 
 ## Objective
 
