@@ -4,7 +4,7 @@
 
 This project aims to predict the risk of insurance claims using a car feature data. The dataset consists of 26 columns and 205 rows, providing various features related to insurance risk. By analyzing this data, we seek to build predictive models that can help insurers assess the risk of claims.
 
-## Dataset
+## Dataset
 
 The dataset contains the following columns:
 
