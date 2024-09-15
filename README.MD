@@ -1,4 +1,4 @@
-# 📣 Car Price Prediction 
+# 📣 Car Insurance Risk Prediction 
 
 ## Introduction
 
@@ -54,9 +54,9 @@ First make sure you have Python installed on your machine. You can download it f
 Next, set up a virtual environment and install the required packages using the following commands:
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install -r requirements.txt
 ```
 
 Desactivate the virtual environment using the following command:
